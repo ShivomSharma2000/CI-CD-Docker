@@ -12,7 +12,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-    stratergy:
+    strategy:
       matrix:
         node-version: [18.x]
 
